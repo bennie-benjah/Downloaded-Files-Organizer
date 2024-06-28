@@ -1,32 +1,25 @@
 Downloaded Files Organizer
 
-This Python script organizes files in your Downloads folder into specific directories based on their types.
+This Python script organizes files in your Downloads folder into specific directories based on their types (e.g., documents, music, images).
 
-Usage
+Description
+
+This script scans your Downloads folder for files and moves them into designated folders based on their file types. It categorizes documents, music and audio files, images, and others accordingly.
+
+Features
+
+- Automatically organizes files in your Downloads folder.
+- Supports organizing documents, music/audio files, images, and other files.
+- Provides a pop-up alert after organizing files to notify the user.
+
+Requirements
+
+- Python 3.x installed on your system.
+- Ensure you have permissions to create directories and move files in your Downloads folder.
+
+Setup
 
 1. Clone the Repository:
    ```bash
    git clone https://github.com/bennie-benjah/Downloaded-Files-Organizer.git
    cd Downloaded-Files-Organizer
-   
-2.Create Required Directories:
-Before running the script, create the following directories in your Downloads folder:
-
-DOCUMENTS: For document files such as PDFs, Word documents, text files, etc.
-MUSIC: For music and audio files such as MP3s, WAVs, etc.
-IMAGES: For image files such as JPEGs, PNGs, etc.
-VIDEOS: For video files such as MP4s, AVIs, etc.
-OTHERS: Optional directory for files that don't fit into the above categories.
-These directories are essential for the script to organize files correctly.
-
-3.Run the Script:
-
-Open Command Prompt or Terminal and navigate to the downloaded repository directory:
-cd Downloaded-Files-Organizer
-
-Execute the script using Python:
-python index.py
-
-4.Pop-up Alert:
-
-After the script completes organizing files, a pop-up alert will notify you that the process is finished.
